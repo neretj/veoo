@@ -11,7 +11,6 @@ import { getOverrideProps } from "@aws-amplify/ui-react/internal";
 import { Video } from "../models";
 import { fetchByPath, validateField } from "./utils";
 import { DataStore } from "aws-amplify";
-
 export default function UploadVideo(props) {
   const {
     clearOnSuccess = true,

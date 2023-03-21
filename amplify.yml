@@ -2,12 +2,17 @@ version: 1
 frontend:
   phases:
     # IMPORTANT - Please verify your build commands
+    preBuild:
+      commands: 
+        - npm i
     build:
-      commands: []
+      commands: 
+        - npm run build
   artifacts:
     # IMPORTANT - Please verify your build output directory
-    baseDirectory: /amplifyapp
+    baseDirectory: /
     files:
       - '**/*'
   cache:
-    paths: []
+    paths: 
+        - node_modules/**/*
