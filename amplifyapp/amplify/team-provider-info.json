@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-veoo-staging-215546-authRole",
+      "UnauthRoleArn": "arn:aws:iam::816898094371:role/amplify-veoo-staging-215546-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::816898094371:role/amplify-veoo-staging-215546-authRole",
+      "Region": "us-west-2",
+      "DeploymentBucketName": "amplify-veoo-staging-215546-deployment",
+      "UnauthRoleName": "amplify-veoo-staging-215546-unauthRole",
+      "StackName": "amplify-veoo-staging-215546",
+      "StackId": "arn:aws:cloudformation:us-west-2:816898094371:stack/amplify-veoo-staging-215546/f82ebee0-c769-11ed-b4a3-0640f9cf1de9",
+      "AmplifyAppId": "dichwn81kdj3n"
+    },
+    "categories": {
+      "auth": {
+        "Veoo": {}
+      },
+      "storage": {
+        "s3veoostorage533ea5c0": {}
+      }
+    }
+  }
+}
